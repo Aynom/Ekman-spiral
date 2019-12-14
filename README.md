@@ -1,5 +1,5 @@
 # Ekman-spiral
-A Fortran-based solution to the Ekman Spiral phenomenon
+<b> A Fortran-based solution to the Ekman Spiral phenomenon </b>
 
 I. A brief Overview of the ekman spiral concept
 
