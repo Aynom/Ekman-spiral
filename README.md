@@ -1,7 +1,7 @@
 # Ekman-spiral
 <b> A Fortran-based solution to the Ekman Spiral phenomenon </b>
 
-I. A brief Overview of the ekman spiral concept
+I. Brief Overview of the ekman spiral concept
 
 The phenomenon related to change in flow direction of an ocean current along a water depth due to the earth's rotation
 is referred to as the Ekman spiral. The Ekman spiral phenomenon can be mathematically expressed using a second-order 
