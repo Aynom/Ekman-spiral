@@ -1,7 +1,7 @@
 # Ekman-spiral
 <b> A Fortran-based solution to the Ekman Spiral phenomenon </b>
 
-I. Brief Overview of the ekman spiral concept
+1. Brief Overview of the ekman spiral concept
 
 The phenomenon related to change in flow direction of an ocean current along a water depth due to the earth's rotation
 is referred to as the Ekman spiral. The Ekman spiral phenomenon can be mathematically expressed using a second-order 
@@ -10,7 +10,7 @@ magnitude, W(z), change between the water depth z=-H and the surface z=0. As bou
 no motion exists at z=-H and that the velocity at water surface is known as W = v + ui, where u and v are two 
 prescribed real constants.
 
-II. Numerical solution to the problem using Fortran Programming
+2. Numerical solution to the problem using Fortran Programming
 
 In this project, the equation describing the Ekman spiral phenomenon is approximated with the help of the finite 
 difference method. Furthermore, a new variable (sigma) which is a function of z, f and k parameters coupled with the 
@@ -34,7 +34,7 @@ vi. Determine values of the wind velocity (W) vector in a back-ward order
 vii.Determine the x-direction (real) and y-direction (imaginary) components of the complex W vector
 
 
-III. Program files and their tasks
+3. Program files and their tasks
 
 i.  main.f90 :
 
@@ -48,7 +48,7 @@ ii. ekman_spiral.f90 :
 This module contains class spiral and different procedures that are used to initialize data, load data from 
 input file, solve the problem and dump data to an output file.
 
-IV. Input to and output from the program
+4. Input to and output from the program
 
 In order to solve the Ekman spiral phenomenon input parameter values, viz., x_wind, y_wind, H, K, f and N are 
 required. The program prompts the user to feed a namelist file name containing the aformentioned parameters and 
@@ -59,7 +59,7 @@ If simulation is successful, outputs from the program, viz., the number of point
 the water depth (z) vector column followed by two columns for the x and y direction components of flow velocity
 are written to an output file. The user is prompted to feed name of this output file when starting the program.
 
-V. Running the program
+5. Running the program
 
 The batch file "Run_ekman_spiral.bat" automates the compilation and running of the program. 
 A double click to this batch file starts the program. 
