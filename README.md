@@ -27,11 +27,11 @@ iii.calculate sigma that represents the imaginary compponent of the complex diag
 iv. set values for the vector diagonals a, b and c of Matrix 'A' and for the 'D' vector starting from the first 
     through the last index
 
-v.  Modify the c-diagonal and values of vector 'D' (determine c' and d') using appropriate expressions
+v.  modify the c-diagonal and values of vector 'D' (determine c' and d') using appropriate expressions
 
-vi. Determine values of the wind velocity (W) vector in a back-ward order
+vi. determine values of the wind velocity (W) vector in a back-ward order
 
-vii.Determine the x-direction (real) and y-direction (imaginary) components of the complex W vector
+vii.determine the x-direction (real) and y-direction (imaginary) components of the complex W vector
 
 
 3. Program files and their tasks
