@@ -6,7 +6,7 @@
 The phenomenon related to change in flow direction of an ocean current along a water depth due to the earth's rotation
 is referred to as the Ekman spiral. The Ekman spiral phenomenon can be mathematically expressed using a second-order 
 differential equation of complex values. This mathematical expression attempts to find how the flow direction and 
-magnitude, W(z), change between the water depth z=-H and the surface z=0. As boundary conditions it is assumed that 
+magnitude, W(z), change between the water depth z=-H and the surface z=0. As boundary condition it is assumed that 
 no motion exists at z=-H and that the velocity at water surface is known as W = v + ui, where u and v are two 
 prescribed real constants.
 
@@ -20,9 +20,10 @@ The following general steps are followed in writting the Fortran program to solv
 
 i.  calculate the change in depth using the total depth and number of intervals between sucessive points considered 
     for analysis
+    
 ii. determine depth below the water surface (z) at the N sucessive points
 
-iii.calculate sigma that represents the imaginary compponent of the complex diagonal variable 'b' in martix 'A'
+iii. calculate sigma that represents the imaginary compponent of the complex diagonal variable 'b' in martix 'A'
 
 iv. set values for the vector diagonals a, b and c of Matrix 'A' and for the 'D' vector starting from the first 
     through the last index
