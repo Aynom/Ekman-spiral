@@ -2,6 +2,8 @@
 !#\  ekman_spiral.f90
 !#\ A module which contains class spiral and different procedures that are used to:  
 !#\ initialize data, load input data, solve the problem and dump output data
+
+!# Author: Aynom Teweldebrhan
 !##############################################################################################
 MODULE ekman_spiral
   !#\ A statement declaring explicit type definition of each data item used in this program
